@@ -173,7 +173,7 @@ export default defineConfig({
     youtubeSearchPlugin(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'apple-touch-icon.png', 'pwa-192x192.png', 'pwa-512x512.png'],
+      includeAssets: ['favicon.png', 'apple-touch-icon.png', 'pwa-192x192.png', 'pwa-512x512.png', 'logo.png'],
       manifest: {
         name: 'Polilyrics - Dual-Subtitle Music Player',
         short_name: 'Polilyrics',
